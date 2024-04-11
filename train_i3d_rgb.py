@@ -138,7 +138,7 @@ def run(init_lr=0.05, max_steps=1000, mode='', root='', train_split='', batch_si
                     num_iter = 0
 
             if phase == 'testing':
-                # revise at 2023.4.14
+               
                 test_cls = tot_loc_loss / num_iter
                 test_cls_added += test_cls
                 with open(save_log_dir, "a") as f:
