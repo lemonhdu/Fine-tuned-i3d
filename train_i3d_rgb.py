@@ -60,7 +60,7 @@ def run(init_lr=0.05, max_steps=1000, mode='', root='', train_split='', batch_si
     else:
         i3d = InceptionI3d(400, in_channels=3)
         i3d.load_state_dict(torch.load('models/rgb_imagenet.pt'))
-    i3d.replace_logits(85)
+    i3d.replace_logits(11)
     i3d.cuda()
     i3d = nn.DataParallel(i3d)
 
