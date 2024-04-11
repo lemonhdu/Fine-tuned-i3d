@@ -47,9 +47,9 @@ def run(max_steps=64e3, mode='', root='', split='./resources/gtea_1.json', batch
 
         # setup the model
         if mode == 'flow':
-            i3d = InceptionI3d(85, in_channels=2)
+            i3d = InceptionI3d(11, in_channels=2)
         else:
-            i3d = InceptionI3d(85, in_channels=3)
+            i3d = InceptionI3d(11, in_channels=3)
 
         i3d.load_state_dict(torch.load(load_model))
         i3d.cuda()
