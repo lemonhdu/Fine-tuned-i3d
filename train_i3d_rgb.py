@@ -9,7 +9,7 @@ import random
 parser = argparse.ArgumentParser()
 parser.add_argument('--mode', type=str, default="rgb")
 parser.add_argument('--root', type=str, default="/root/autodl-tmp/dataset/video_frames")
-parser.add_argument('--train_split', type=str, default="./resources/gtea_85_1.json")
+parser.add_argument('--train_split', type=str, default="./resources/gtea.json")
 parser.add_argument('--save_model', type=str, default="./weights/gtea_rgb_split1_04142.pth")
 
 args = parser.parse_args()
