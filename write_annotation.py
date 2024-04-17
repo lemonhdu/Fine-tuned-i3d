@@ -2,7 +2,7 @@ import json
 import os
 
 '''
-This file is used to generate a .json file, considered to be a supplement for https://github.com/lemonhdu/pytorch-i3d.
+This file is used to generate a .json file, considered to be a supplement for https://github.com/piergiaj/pytorch-i3d.
 '''
 
 # 50 salads
