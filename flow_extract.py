@@ -6,8 +6,8 @@ import multiprocessing
 
 ######calculate flow from video frames
 video_root = './video_list.txt'
-root = '/disks/disk0/huangxvfeng/dataset/segmentation/50salads_full'
-out_root = '/disks/disk0/huangxvfeng/dataset/segmentation/50salads_flow_jpg'
+root = '/disks/disk0/huang/dataset/segmentation/50salads_full'
+out_root = '/disks/disk0/huang/dataset/segmentation/50salads_flow_jpg'
 
 
 def cal_for_frames(video_path, flow_path):
